@@ -1,0 +1,13 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÜ­
+X
+java:S1854H"BRemove this useless assignment to local variable "downcastedRomb".(Ò£Ó¥
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(’æ’é
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ü“ÜÍıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔÂ¯ãşÿÿÿÿ
+I
+java:S1481H"3Remove this unused "downcastedRomb" local variable.(Ò£Ó¥
+
+java:S11306"yRemove the declaration of thrown exception 'java.lang.InstantiationException', as it cannot be thrown from method's body.(¥šÆ‚
+V	java:S125B"<This block of commented-out lines of code should be removed.(ÈÓÕœûÿÿÿÿ

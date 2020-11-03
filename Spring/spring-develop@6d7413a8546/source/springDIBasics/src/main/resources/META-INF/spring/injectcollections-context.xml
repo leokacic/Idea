@@ -1,0 +1,44 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    
+<bean id="myRef"  class="injectcollections.DependencyImpl"/>
+     
+   <bean id="injectCollections" class="injectcollections.InjectCollections">
+        <property name="map">
+            <map>
+                <entry key="someValue">
+                    <value>Hello World!</value>
+                </entry>
+                <entry key="someBean">
+                    <ref local="myRef"/>
+                </entry> 
+            </map>
+        </property>
+        
+        
+        <property name="props">
+            <props>
+                <prop key="firstName">Dalibor</prop>
+                <prop key="secondName">Starcevic</prop>
+            </props>
+        </property>
+        
+        
+        <property name="set">
+            <set>
+                <value>Hello World!</value>
+                <ref local="myRef"/>
+            </set>
+        </property>
+        
+        
+        <property name="list">
+            <list>
+                <value>Hello World!</value>
+				<ref local="myRef"/>
+				<value>Hello World!!</value>
+            </list>
+        </property> 
+    </bean>
+ </beans>
+  

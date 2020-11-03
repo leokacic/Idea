@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<div class="container">
+<head>
+    <title>CoronaVirus tracker Application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+ </head>
+
+<body>
+
+<h1> CoronaVirus tracker Application </h1>
+<p> Cases from the whole world </p>
+
+<div class="jumbotron">
+    <h1 class="display-4" th:text="${totalReportedCases}">Hello, world!</h1>
+    <p class="lead">Total cases reported as of today</p>
+
+    <hr class ="my-4">
+    <p>
+        <span> New cases reported since previous day:</span>
+        <span th:text="${totalCaseDifference}">   </span>
+    </p>
+
+</div>
+
+    <table class="table">
+        <thead class ="thead-dark">
+        <tr>
+            <th>State</th>
+            <th>Country</th>
+            <th>Total cases reported</th>
+            <th>Difference with day before</th>
+        </tr>
+        </thead>
+
+        <tr th:each="locationStat : ${locationStats}">
+            <td th:text="${locationStat.state}"></td>
+            <td th:text="${locationStat.country}"></td>
+            <td th:text="${locationStat.latestTotalCases}"></td>
+            <td th:text="${locationStat.dayDifference}"></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+
+</html>

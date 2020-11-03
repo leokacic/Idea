@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!-- bean declaration -->
+
+	<bean id="helloWorldJuly2011" class="helloworld.July2011HelloWorld" scope="prototype" >
+	</bean>
+	
+	<bean id="helloWorld" class="helloworld.HelloWorldImpl" scope="prototype">
+		<property name="hello" value="hello from bean.xml"></property>
+		<property name="secondHello" value="second property"></property>
+		<property name="myType" ref="myType"></property>
+		
+	</bean>
+
+	<bean id="myType" class="helloworld.MyType">
+		<property name="myType" ><value>myType String</value></property>
+	</bean>
+	
+	<bean id="secondHelloWorld" class="helloworld.SecondHelloWorldImpl">
+	
+	</bean>
+	
+<!-- beans for analytics package -->
+
+    <bean id="hello1" class="analytics.Hello1" scope="singleton" init-method="myInit" destroy-method="myDestroy">
+        <property name="message" value="neki value za hello world"></property>
+        <property name="arabicString" ref="arabicString"></property>
+    </bean>
+    
+    <bean id="arabicString" class="analytics.ArabicString">
+    	<property name="arabicMessage" value="arabic hello world"></property>
+    </bean>
+    
+</beans>

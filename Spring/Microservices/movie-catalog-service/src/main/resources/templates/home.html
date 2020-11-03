@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Good Thymes Virtual Grocery</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all"
+          href="../../css/gtvg.css" th:href="@{/css/gtvg.css}" />
+</head>
+<body>
+
+<table>
+    <tr data-th-each="movieList : ${movieLists}">
+        <td data-th-text="${movieList.key}">...</td>
+        <td data-th-text="${movieList.value.numOfData}">...</td>
+    </tr>
+</table>
+</body>
+</html>

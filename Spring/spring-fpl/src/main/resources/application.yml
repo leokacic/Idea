@@ -1,0 +1,12 @@
+
+server:
+  port: 8090
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springsecurity?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true&
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update

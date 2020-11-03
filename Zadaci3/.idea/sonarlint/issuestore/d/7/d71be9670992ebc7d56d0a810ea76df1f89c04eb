@@ -1,0 +1,11 @@
+
+[
+java:S1854"9Remove this useless assignment to local variable "index".(Ώφσ‹όÿÿÿÿ8¬ιώΓ.
+V
+java:S1854"9Remove this useless assignment to local variable "index".(ό’ª8¬ιώΓ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.( Πϊ8¬ιώΓ.
+H
+java:S1168!"+Return an empty collection instead of null.(¥Ήο8¬ιώΓ.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ρ·Ήώÿÿÿÿ8¬ιώΓ.
+G
+java:S1481"*Remove this unused "index" local variable.(ό’ª8¬ιώΓ.

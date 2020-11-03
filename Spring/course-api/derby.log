@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Aug 17 08:58:04 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0173-fb35-f3aa-000006991fe0 
+on database directory memory:/home/kacicleo/Desktop/Spring/course-api/5b382d7e-a753-4cb0-9ed1-36b7ca2f519b with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@42a57993 
+Loaded from file:/home/kacicleo/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=14.0.1+7
+user.dir=/home/kacicleo/Desktop/Spring/course-api
+os.name=Linux
+os.arch=amd64
+os.version=5.3.0-62-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

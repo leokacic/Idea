@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="customEditorConfigurer" class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+    	<property name="customEditors">
+        	<map>
+            	<entry key="java.util.Date">
+                	<bean class="org.springframework.beans.propertyeditors.CustomDateEditor">
+                    	<constructor-arg index="0">
+                        	<bean class="java.text.SimpleDateFormat">
+                            	<constructor-arg value="dd.MM.yyyy"/>
+                        	</bean>
+                    	</constructor-arg>
+                    	<constructor-arg index="1" value="false"/>
+					</bean>
+            	</entry>
+        	</map>
+    	</property>
+	</bean>
+
+ 
+	<bean id="propertyEditorBean" class="beanlifecycle.PropertyEditorBean">
+		
+		<property name="date" value="15.04.1980"/>
+		
+		<property name="bytes" value="Hello, World"/>
+		<property name="file" value="/tmp"/>
+		<property name="locale" value="en_GB"/>
+	 	<property name="pattern" value="^(.*)$"/>
+		<property name="properties">
+			<value>
+			a=b
+			c=d
+			</value>
+		</property>
+		<property name="strings" value="xxxxx"/>
+		<property name="url" value="http://www.siemens.com"/>
+	
+	</bean>
+		
+</beans>

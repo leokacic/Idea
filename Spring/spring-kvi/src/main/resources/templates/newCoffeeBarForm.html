@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <title> Coffee Bar Management System</title>
+</head>
+<body>
+<div class="container">
+    <h1> Coffee Bar Management System</h1>
+    <hr>
+    <h2> Save Bar </h2>
+    <form action="#" th:action="@{/saveCoffeeBar}" method="POST">
+        <input type ="text" th:field ="*{coffeeBar.name}" placeholder="Location of the bar" class ="form-control mb-4 col-4">
+        <input type ="text" th:value ="*{townName.id}" placeholder="Name of the bar" class ="form-control mb-4 col-4">
+        <button type ="submit" class="btn btn-info col-2">Save Coffee Bar</button>
+    </form>
+</div>
+</body>
+</html>

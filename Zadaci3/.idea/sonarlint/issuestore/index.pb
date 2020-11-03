@@ -1,0 +1,35 @@
+
+O
+src/TypeInformation/Shapes.java,d/d/ddb4ea9f4185971a117a40e8fd5a4d67bde0d0ea
+H
+src/Generics/Holder.java,a/5/a5eb89fb520ccc13c01565db1a9230839696085f
+J
+src/Generics/Sequence.java,a/5/a58a615f462efc2a405a8a6daac4eb1682ef6e47
+R
+"src/TypeInformation/Multiples.java,d/8/d8c3da73774f9a87ca8f890ec29b365e5252086a
+T
+$src/TypeInformation/PrimeFactor.java,0/3/035f2ab66d4e7cc1a15fa0f2be3a7ee3f6e07580
+P
+ src/Generics/StoryCharacter.java,4/4/4459583e80f23bcace84e2f6c63595f04a25a528
+K
+src/Generics/Generator.java,e/2/e2c36caa9f8abb1c460e2fbf3d1ee3af0a26d759
+T
+$src/Generics/StoryCharGenerator.java,5/1/51795cdb34a88e07d9214cee42694f3e3dd20ef2
+R
+"src/Generics/ClassTypeCapture.java,1/5/15b4b1956011315cc2c2e3b9a28663099311f8e1
+H
+src/Arrays/BeSphere.java,5/c/5c242ec4f3dcbb4e663074e81f457942b2e81d31
+E
+src/IO/BookGenre.java,f/3/f32d099d50656ecf9ce8ae1c5b96b8ed99a79049
+S
+#src/Concurrency/MyFirstThread2.java,a/8/a86c6e9c208b70c74067ec8bc1642473137b14dd
+R
+"src/Concurrency/MyFirstThread.java,3/0/300c0d6990a7ebf1e7e083b48b06f0fbeb79b4a7
+B
+src/HYO/Hello.java,5/d/5d1710d131c6a129596d4f6980c7632f6e9e9865
+F
+src/HYO/SumPrimes.java,e/4/e417131add54664635df55287d43ff81a89442db
+D
+src/Leet/TwoSum.java,d/7/d71be9670992ebc7d56d0a810ea76df1f89c04eb
+H
+src/Leet/TwoNumbers.java,d/9/d979219aecc388b05631265c5460ec60aca51826

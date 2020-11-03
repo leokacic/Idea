@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="myRef"  class="injectcollections.DependencyImpl">
+		
+	</bean>
+
+	<bean id="myRefValue"  class="java.lang.String">
+		<constructor-arg value="kljklj"></constructor-arg>
+	</bean>
+	
+    <bean id="injectBean" class="injectbean.InjectBean" >
+        <property name="dependency" ref="myRef"></property>
+        <property name="testRefValue" ref="myRefValue"></property>
+
+        <property name="age" value="1">
+        	
+        </property>
+    </bean>
+
+	<bean name="injectBeanUsingBeanAliases" class="injectbean.InjectBean" >
+        <property name="dependency" ref="myRef"></property>
+    </bean>
+
+</beans>

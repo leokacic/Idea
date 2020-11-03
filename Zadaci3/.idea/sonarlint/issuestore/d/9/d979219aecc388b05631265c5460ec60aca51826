@@ -1,0 +1,13 @@
+
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(©èÄó8ªéşÃ.
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ªéşÃ.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8ªéşÃ.
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(°ö˜±şÿÿÿÿ8ªéşÃ.
+9
+java:S1643"Use a StringBuilder instead.(ï¡ş‰8ªéşÃ.
+9
+java:S1643"Use a StringBuilder instead.(‘ÔÃù8ªéşÃ.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ·¹şÿÿÿÿ8ªéşÃ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(üèˆÅ8ªéşÃ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(·Äæßÿÿÿÿÿ8ªéşÃ.

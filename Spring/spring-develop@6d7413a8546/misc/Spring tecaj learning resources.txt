@@ -1,0 +1,99 @@
+------------------------------------------------
+Spring framework tecaj - learning resources
+------------------------------------------------
+
+Zanimljivi clanci, teme, tutorijali, patterni
++++++++++++++++++++++++++++++++++++++++++++++
+
+TUTORIALS
+------------------------------
+Spring makes Java.. modern, reactive, cloud-ready, simple, productive..
+https://spring.io/
+https://spring.io/projects/spring-framework
+
+Spring Core basics tutorial
+https://www.tutorialspoint.com/spring/index.htm
+
+Spring Tutorial
+https://www.javatpoint.com/spring-tutorial
+
+(Short) Introduction to Spring Framework
+https://www.geeksforgeeks.org/introduction-to-spring-framework/
+
+Spring Framework tutorials @ Journaldev
+https://www.journaldev.com/16922/spring-framework
+
+Baeldung.com is web authored by Eugen, an engineer with a passion for teaching and building stuff on the web
+https://www.baeldung.com/
+https://www.baeldung.com/spring-5
+https://www.baeldung.com/spring-boot
+
+
+CODE
+------------------------------
+Spring framework code @ Github
+https://github.com/spring-projects/spring-framework
+
+Baeldug - Eugen - Java and Spring Tutorials
+https://github.com/eugenp/tutorials
+
+Building an MVC Application with Spring Framework: A Beginner's Tutorial
+https://www.toptal.com/spring/beginners-guide-to-mvc-with-spring-framework
+
+Building a CRUD RESTful API/Web Service with Spring Boot
+https://medium.com/swlh/building-a-crud-restful-api-web-service-with-spring-boot-a4f29edfbcd3
+
+Java Spring: Getting Started with Java Backend API Development
+https://medium.com/swlh/java-spring-getting-started-with-java-backend-api-development-debafa1937d2
+
+Spring Microservice Global Exception Handling and Field validations
+https://medium.com/@kousikpaul/microservice-global-exception-handling-and-field-validations-3fc955a80692
+
+Introducing Spring State Machine
+https://medium.com/@nagillavenkatesh1234/introducing-spring-state-machine-77d446f85e13
+
+
+BLOGS
+------------------------------
+Spring Framework Guru
+John Thompson, author of Spring Framework courses..
+https://springframework.guru/
+
+
+
+ARTICLES, LINKS
+------------------------------
+Spring Framework — Overview
+https://medium.com/@sandhya.sandy/spring-framework-overview-d41109fc87ba
+
+Mastering Spring framework 5, Part 1: Spring MVC
+Fast-track Spring-based projects with Spring MVC 5, Spring Boot, and Spring Initializr
+https://www.infoworld.com/article/2078034/spring-framework-mastering-spring-mvc.html
+
+Spring vs Spring Boot: A Comparison of These Java Frameworks
+Want to learn more about these two popular Java frameworks? Check out this Article how they each solve a different type of problem.
+https://medium.com/quick-code/spring-vs-spring-boot-a-comparison-of-these-java-frameworks-14a1b594657
+
+What is REST
+https://restfulapi.net/
+https://restfulapi.net/resource-naming/
+https://restfulapi.net/resource-naming/
+
+
+PATTERNS USED IN SPRING FRAMEWORK
+------------------------------
+Dependency Injection 101 — What and Why
+https://medium.com/toro-data-quality/dependency-injection-101-what-and-why-7bd11d53c528
+https://java-design-patterns.com/patterns/dependency-injection/
+
+
+------------------------------------------------
+
+Academy on Split share: 
+\\off-fs01\SplitShare\Academy
+
+Academy courses on Git:  
+https://portal.tools.split.local/bitbucket/projects/COUR
+
+------------------------------------------------
+

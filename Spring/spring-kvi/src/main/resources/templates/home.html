@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<div class="container">
+    <head>
+        <title>Fpl data</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    </head>
+
+    <body>
+
+    <h1> Croatian Town Data </h1>
+    <p> All Croatian Towns</p>
+
+    <table class="table">
+        <thead class ="thead-dark">
+        <tr>
+            <th>Name</th>
+            <th>County name</th>
+            <th>Coffee bars</th>
+        </tr>
+        </thead>
+
+        <tr th:each="town : ${allTowns}">
+            <td th:text="${town.name}"></td>
+            <td th:text="${town.countyName}"></td>
+            <td>
+                <a th:href = "@{/CoffeeBars/{id}(id=${town.id})}" class = "btn btn-primary"> Show All Coffee Bars </a>
+            </td>
+        </tr>
+    </table>
+    </body>
+</div>
+</html>

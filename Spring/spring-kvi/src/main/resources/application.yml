@@ -1,0 +1,17 @@
+
+server:
+  port: 8050
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/kvi?&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true&
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  security:
+    user:
+      name: leo
+      password: leo

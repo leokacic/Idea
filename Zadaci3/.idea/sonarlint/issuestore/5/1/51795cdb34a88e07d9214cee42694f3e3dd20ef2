@@ -1,0 +1,10 @@
+
+Z
+java:S1854"8Remove this useless assignment to local variable "rand".(ËŒş½ûÿÿÿÿ8çÊ÷øÁ.
+K
+java:S1481")Remove this unused "rand" local variable.(ËŒş½ûÿÿÿÿ8çÊ÷øÁ.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·±’õ8çÊ÷øÁ.
+T
+java:S1128"2Remove this unused import 'java.util.Spliterator'.(òÀì¿ùÿÿÿÿ8çÊ÷øÁ.
+Z
+java:S1128"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8çÊ÷øÁ.

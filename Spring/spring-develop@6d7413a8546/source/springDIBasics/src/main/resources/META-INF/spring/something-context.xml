@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="str" class="java.lang.String">
+		<constructor-arg value="yyyy"></constructor-arg>
+	</bean>
+	
+	<bean id="something" class="something.SomethingImpl" >
+<!-- 	 <property name="message" value="xxxx"></property>
+ -->
+ 		<property name="message" ref="str"></property>
+ 		<property name="age" ><value>15</value></property>
+	</bean>	
+
+	<bean id="dependencyRef" class="something.Dependency"></bean>
+		
+	<bean id="constructorInjection" class="something.ConstructorInjection">
+		<constructor-arg ref="dependencyRef"></constructor-arg>
+	</bean>
+	
+	<bean id="setterInjection" class="something.SetterInjection">
+		<property name="dependency" ref="dependencyRef"></property>
+	</bean>
+	
+</beans>

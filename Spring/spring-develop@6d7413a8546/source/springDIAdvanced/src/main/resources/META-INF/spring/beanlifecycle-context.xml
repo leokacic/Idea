@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="simple1" class="beanlifecycle.SimpleBean" 
+    	init-method="init" 
+    	destroy-method="destroy">
+		<property name="age" value="38"/>
+		<property name="name" value="name defined"/>
+	</bean>
+	
+	
+	<bean id="simple2" class="beanlifecycle.SimpleBean" init-method="init">
+		<property name="age" value="38"/>
+	</bean>
+
+    <bean id="simpleIB1" class="beanlifecycle.SimpleBeanIB" >
+    
+		<property name="age" value="38"/>
+		<property name="name" value="name defined"/>
+	</bean>
+	
+	
+	<bean id="simpleIB2" class="beanlifecycle.SimpleBeanIB" >
+		<property name="age" value="38"/>
+	</bean>
+	
+	<bean id="logging2" class="beanlifecycle.LoggingBean"/>
+
+	<bean id="simpleBeanForMyBeanFactoryPostProcessor" class="beanlifecycle.SimpleBean" >
+		<property name="age" value="38"/>
+		<property name="name" value="name defined"/>
+	</bean>
+	
+	
+	<bean id="bfpp" class="beanlifecycle.MyBeanFactoryPostProcessor">
+	</bean>
+
+ 
+	
+		
+</beans>

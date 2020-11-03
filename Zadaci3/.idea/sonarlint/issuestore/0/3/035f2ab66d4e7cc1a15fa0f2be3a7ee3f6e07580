@@ -1,0 +1,11 @@
+
+:
+java:S2252"This loop will never execute.(ü€à³8ÆÖüıÀ.
+W
+java:S1854"5Remove this useless assignment to local variable "i".(¿Äóùÿÿÿÿ8òııÀ.
+H
+java:S1481"&Remove this unused "i" local variable.(¿Äóùÿÿÿÿ8òııÀ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔÂ¯ãşÿÿÿÿ
+F
+java:S2129"$Remove this "BigInteger" constructor(¿Äóùÿÿÿÿ8®ıÿ–¾.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ã”…ªûÿÿÿÿ8¿şé–¾.

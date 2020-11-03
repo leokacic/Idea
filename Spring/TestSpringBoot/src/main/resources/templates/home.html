@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<div class="container">
+    <head>
+        <title>CoronaVirus tracker Application</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    </head>
+
+    <body>
+
+    <h1> CoronaVirus tracker Application </h1>
+    <p> Cases from the whole world </p>
+
+    <form action="/added">
+        <label for="fname">First name:</label>
+        <input type="number" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="number" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div class="jumbotron">
+        <h1 class="display-4" th:text="${latestCases}">Hello, world!</h1>
+        <p class="lead">The two numbers added together are: </p>
+    </div>
+
+    </body>
+
+</div>
+</html>

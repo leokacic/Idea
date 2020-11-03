@@ -1,0 +1,10 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·±’õ8èÊ÷øÁ.
+f
+java:S1226"DIntroduce a new variable instead of reusing the parameter "goodGuy".(çÉ”ÿÿÿÿÿ8èÊ÷øÁ.
+f
+java:S1226 "DIntroduce a new variable instead of reusing the parameter "goodGuy".(òó®¥üÿÿÿÿ8èÊ÷øÁ.
+]
+java:S1854 ";Remove this useless assignment to local variable "goodGuy".(òó®¥üÿÿÿÿ8èÊ÷øÁ.
+]
+java:S1854";Remove this useless assignment to local variable "goodGuy".(çÉ”ÿÿÿÿÿ8èÊ÷øÁ.

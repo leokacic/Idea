@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<div class="container">
+    <head>
+        <title>Fpl data</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    </head>
+
+    <body>
+
+    <h1> Fpl Data </h1>
+    <p> Cases from the whole world </p>
+
+    <div class="jumbotron">
+        <h1 class="display-4" th:text="${averagePoints}">Hello, world!</h1>
+        <p class="lead">Total average points</p>
+
+<!--        <hr class ="my-4">-->
+<!--        <p>-->
+<!--            <span> New cases reported since previous day:</span>-->
+<!--            <span th:text="${totalCaseDifference}">   </span>-->
+<!--        </p>-->
+
+    </div>
+
+    <table class="table">
+        <thead class ="thead-dark">
+        <tr>
+            <th>Name</th>
+            <th>Team name</th>
+            <th>Price</th>
+            <th>Minutes</th>
+            <th>Total points</th>
+        </tr>
+        </thead>
+
+        <tr>
+            <td th:text="${statsByName.name}"></td>
+            <td th:text="${statsByName.teamName}"></td>
+            <td th:text="${statsByName.cost}"></td>
+            <td th:text="${statsByName.minutes}"></td>
+            <td th:text="${statsByName.totalPoints}"></td>
+        </tr>
+
+    </table>
+</body>
+</div>
+</html>
